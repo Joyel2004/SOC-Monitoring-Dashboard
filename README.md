@@ -133,7 +133,6 @@ Key services included:
 | 9200 | TCP | Wazuh Indexer access used by Grafana |
 | 20211 | TCP | NetAlertX web interface |
 | 20212 | TCP | NetAlertX API |
-| 8010 | TCP | Reserved for the alert enrichment API |
 
 This configuration follows the principle of least privilege by exposing only the network services required by the monitoring environment.
 
@@ -152,7 +151,7 @@ The container configuration included several security and reliability controls:
 
 These controls reduced unnecessary container privileges while maintaining the functionality required for network discovery.
 
-### Network Segmentation and Access Control
+### Network Configuration and Access Control
 
 The Ubuntu virtual machine used VirtualBox bridged networking, allowing it to operate as a separate device on the local network.
 
