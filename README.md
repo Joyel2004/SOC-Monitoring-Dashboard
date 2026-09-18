@@ -84,6 +84,7 @@ The dashboard includes:
 
 ![Grafana SOC Dashboard](Screenshots/03-grafana-soc-dashboard.png)
 
+*Custom Grafana SOC monitoring dashboard visualising Wazuh security alerts over a 30-day period.*
 
 ## Security Monitoring Results
 
